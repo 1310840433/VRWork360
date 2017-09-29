@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7AE9C08C-8A78-3F68-9DCC-879D27E7749E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>nvstitch_sample</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\ProjectsBackUp\vrwork360\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nvstitch_sample.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectName)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nvstitch_sample</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ProjectsBackUp\vrwork360\samples\nvstitch_sample;D:\ProjectsBackUp\vrwork360\nvstitch\include;D:\ProjectsBackUp\vrwork360\samples\common;D:\ProjectsBackUp\vrwork360\utilities;D:\ProjectsBackUp\vrwork360\nvcalib\include;D:\ProjectsBackUp\vrwork360\external\rapidxml-1.13;D:\ProjectsBackUp\vrwork360\external\opencv-3.2\include;D:\ProjectsBackUp\vrwork360\third_party\glfw-3.2\include;D:\ProjectsBackUp\vrwork360\third_party\glew-1.13.0\include;D:\ProjectsBackUp\vrwork360\samples\nvstitch_sample\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR="Debug";USE_CAPTURE;DEBUUG;GLEW_STATIC;GLFW_STATIC;USE_RTMP;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ProjectsBackUp\vrwork360\samples\nvstitch_sample;D:\ProjectsBackUp\vrwork360\nvstitch\include;D:\ProjectsBackUp\vrwork360\samples\common;D:\ProjectsBackUp\vrwork360\utilities;D:\ProjectsBackUp\vrwork360\nvcalib\include;D:\ProjectsBackUp\vrwork360\external\rapidxml-1.13;D:\ProjectsBackUp\vrwork360\external\opencv-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ProjectsBackUp\vrwork360\samples\nvstitch_sample;D:\ProjectsBackUp\vrwork360\nvstitch\include;D:\ProjectsBackUp\vrwork360\samples\common;D:\ProjectsBackUp\vrwork360\utilities;D:\ProjectsBackUp\vrwork360\nvcalib\include;D:\ProjectsBackUp\vrwork360\external\rapidxml-1.13;D:\ProjectsBackUp\vrwork360\external\opencv-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\Release\common_util.lib;..\..\..\nvstitch\library\nvstitch.lib;..\..\..\nvcalib\library\nvcalib.lib;..\..\..\external\opencv-3.2\library\opencv_core320.lib;..\..\..\external\opencv-3.2\library\opencv_highgui320.lib;..\..\..\external\opencv-3.2\library\opencv_imgcodecs320.lib;..\..\..\external\opencv-3.2\library\opencv_imgproc320.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;D:\ProjectsBackUp\vrwork360\third_party\glew-1.13.0\lib\$(Platform)\$(Configuration)\glew32s.lib;D:\ProjectsBackUp\vrwork360\third_party\glfw-3.2\lib\x64\$(Configuration)\glfw3.lib;SDL2.lib;SDL2main.lib;odbc32.lib;odbccp32.lib;D:\ProjectsBackUp\vrwork360\third_party\librtmp\librtmp.lib;D:\ProjectsBackUp\vrwork360\third_party\MWCaptureSDK\$(Platform)\LibMWCapture.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\ProjectsBackUp\vrwork360\third_party\sdl2-2.0.3\bin\win64;D:\ProjectsBackUp\vrwork360\third_party\MWCaptureSDK\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ProjectsBackUp/vrwork360/build/Release/nvstitch_sample.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ProjectsBackUp/vrwork360/build/Release/nvstitch_sample.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ProjectsBackUp\vrwork360\samples\nvstitch_sample;D:\ProjectsBackUp\vrwork360\nvstitch\include;D:\ProjectsBackUp\vrwork360\samples\common;D:\ProjectsBackUp\vrwork360\utilities;D:\ProjectsBackUp\vrwork360\nvcalib\include;D:\ProjectsBackUp\vrwork360\external\rapidxml-1.13;D:\ProjectsBackUp\vrwork360\external\opencv-3.2\include;D:\ProjectsBackUp\vrwork360\third_party\glfw-3.2\include;D:\ProjectsBackUp\vrwork360\third_party\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR="Release";USE_CAPTURE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ProjectsBackUp\vrwork360\samples\nvstitch_sample;D:\ProjectsBackUp\vrwork360\nvstitch\include;D:\ProjectsBackUp\vrwork360\samples\common;D:\ProjectsBackUp\vrwork360\utilities;D:\ProjectsBackUp\vrwork360\nvcalib\include;D:\ProjectsBackUp\vrwork360\external\rapidxml-1.13;D:\ProjectsBackUp\vrwork360\external\opencv-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ProjectsBackUp\vrwork360\samples\nvstitch_sample;D:\ProjectsBackUp\vrwork360\nvstitch\include;D:\ProjectsBackUp\vrwork360\samples\common;D:\ProjectsBackUp\vrwork360\utilities;D:\ProjectsBackUp\vrwork360\nvcalib\include;D:\ProjectsBackUp\vrwork360\external\rapidxml-1.13;D:\ProjectsBackUp\vrwork360\external\opencv-3.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\Release\common_util.lib;..\..\..\nvstitch\library\nvstitch.lib;..\..\..\nvcalib\library\nvcalib.lib;..\..\..\external\opencv-3.2\library\opencv_core320.lib;..\..\..\external\opencv-3.2\library\opencv_highgui320.lib;..\..\..\external\opencv-3.2\library\opencv_imgcodecs320.lib;..\..\..\external\opencv-3.2\library\opencv_imgproc320.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;D:\ProjectsBackUp\vrwork360\third_party\glew-1.13.0\lib\$(Platform)\$(Configuration)\glew32s.lib;D:\ProjectsBackUp\vrwork360\third_party\glfw-3.2\lib\x64\$(Configuration)\glfw3.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ProjectsBackUp/vrwork360/build/Release/nvstitch_sample.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ProjectsBackUp/vrwork360/build/Release/nvstitch_sample.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ProjectsBackUp\vrwork360\samples\nvstitch_sample\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/ProjectsBackUp/vrwork360/samples/nvstitch_sample/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/ProjectsBackUp/vrwork360/samples/nvstitch_sample/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\编程\cmake-3.9.0-rc5-win64-x64\bin\cmake.exe -HD:/ProjectsBackUp/vrwork360 -BD:/ProjectsBackUp/vrwork360/build --check-stamp-file D:/ProjectsBackUp/vrwork360/build/samples/nvstitch_sample/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\编程\cmake-3.9.0-rc5-win64-x64\bin\cmake.exe -HD:/ProjectsBackUp/vrwork360 -BD:/ProjectsBackUp/vrwork360/build --check-stamp-file D:/ProjectsBackUp/vrwork360/build/samples/nvstitch_sample/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/ProjectsBackUp/vrwork360/samples/nvstitch_sample/CMakeLists.txt;D:\ProjectsBackUp\vrwork360\samples\nvstitch_sample\CMakeLists.txt;D:\ProjectsBackUp\vrwork360\samples\nvstitch_sample\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/ProjectsBackUp/vrwork360/samples/nvstitch_sample/CMakeLists.txt;D:\ProjectsBackUp\vrwork360\samples\nvstitch_sample\CMakeLists.txt;D:\ProjectsBackUp\vrwork360\samples\nvstitch_sample\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\ProjectsBackUp\vrwork360\build\samples\nvstitch_sample\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\ProjectsBackUp\vrwork360\build\samples\nvstitch_sample\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\samples\nvstitch_sample\CaptureThread.cpp" />
+    <ClCompile Include="..\..\..\samples\nvstitch_sample\librtmp_send264.cpp" />
+    <ClCompile Include="..\..\..\samples\nvstitch_sample\localview_ogl.cpp" />
+    <ClCompile Include="..\..\..\samples\nvstitch_sample\ringBuffer.cpp" />
+    <ClCompile Include="D:\ProjectsBackUp\vrwork360\samples\nvstitch_sample\app.cpp" />
+    <ClCompile Include="D:\ProjectsBackUp\vrwork360\samples\nvstitch_sample\main.cpp" />
+    <ClInclude Include="D:\ProjectsBackUp\vrwork360\samples\nvstitch_sample\app.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\ProjectsBackUp\vrwork360\build\ZERO_CHECK.vcxproj">
+      <Project>{00221496-45C2-3C88-8998-CB75DA52A9E0}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ProjectsBackUp\vrwork360\build\utilities\common_util.vcxproj">
+      <Project>{13D3557C-239F-3E93-A73A-FFBD876689FB}</Project>
+      <Name>common_util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

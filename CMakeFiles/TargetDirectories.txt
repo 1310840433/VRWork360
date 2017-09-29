@@ -1,0 +1,17 @@
+D:/ProjectsBackUp/vrwork360/build/CMakeFiles/INSTALL.dir
+D:/ProjectsBackUp/vrwork360/build/CMakeFiles/ALL_BUILD.dir
+D:/ProjectsBackUp/vrwork360/build/CMakeFiles/ZERO_CHECK.dir
+D:/ProjectsBackUp/vrwork360/build/external/CMakeFiles/INSTALL.dir
+D:/ProjectsBackUp/vrwork360/build/utilities/CMakeFiles/common_util.dir
+D:/ProjectsBackUp/vrwork360/build/utilities/CMakeFiles/INSTALL.dir
+D:/ProjectsBackUp/vrwork360/build/nvstitch/CMakeFiles/INSTALL.dir
+D:/ProjectsBackUp/vrwork360/build/nvcalib/CMakeFiles/INSTALL.dir
+D:/ProjectsBackUp/vrwork360/build/samples/CMakeFiles/INSTALL.dir
+D:/ProjectsBackUp/vrwork360/build/samples/nvcalib_sample/CMakeFiles/INSTALL.dir
+D:/ProjectsBackUp/vrwork360/build/samples/nvcalib_sample/CMakeFiles/nvcalib_sample.dir
+D:/ProjectsBackUp/vrwork360/build/samples/nvss_sample/CMakeFiles/nvss_sample.dir
+D:/ProjectsBackUp/vrwork360/build/samples/nvss_sample/CMakeFiles/INSTALL.dir
+D:/ProjectsBackUp/vrwork360/build/samples/nvstitch_sample/CMakeFiles/nvstitch_sample.dir
+D:/ProjectsBackUp/vrwork360/build/samples/nvstitch_sample/CMakeFiles/INSTALL.dir
+D:/ProjectsBackUp/vrwork360/build/samples/nvsf_sample/CMakeFiles/nvsf_sample.dir
+D:/ProjectsBackUp/vrwork360/build/samples/nvsf_sample/CMakeFiles/INSTALL.dir

@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+D:/ProjectsBackUp/vrwork360/external/CMakeLists.txt
+D:/编程/cmake-3.9.0-rc5-win64-x64/share/cmake-3.9/Modules/FindCUDA.cmake
+D:/编程/cmake-3.9.0-rc5-win64-x64/share/cmake-3.9/Modules/FindPackageHandleStandardArgs.cmake
+D:/编程/cmake-3.9.0-rc5-win64-x64/share/cmake-3.9/Modules/FindPackageMessage.cmake
+D:/编程/cmake-3.9.0-rc5-win64-x64/share/cmake-3.9/Modules/FindCUDA/select_compute_arch.cmake
